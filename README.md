@@ -34,6 +34,17 @@ PharmaDoc AI addresses this challenge by combining PDF text extraction, Optical 
 | Gradio | User interface |
 | Google Colab | Development environment |
 
+## Running the Project in Google Colab
+
+1. Open `PharmaDoc_AI_Capstone_Full_RAG.ipynb` in this repository.
+2. Click **Open in Colab** if available, or open the notebook through Google Colab using its GitHub import option.
+3. Select a suitable runtime, preferably with GPU acceleration for the Qwen model.
+4. Run the notebook's setup cells to install the required Python libraries and Tesseract OCR.
+5. Run the remaining cells in order to initialize the document-processing pipeline and Gradio interface.
+6. Upload a PDF through the interface and ask a question about its contents.
+
+**Note:** The notebook downloads pretrained models when initialized, so an internet connection is required. The initial setup may take several minutes. These instructions assume the notebook's setup cells are intact; the exact dependencies and runtime requirements should be checked against the notebook.
+
 ## How It Works
 
 1. The user uploads a pharmaceutical PDF.
